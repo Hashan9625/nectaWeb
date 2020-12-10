@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.PrHeader {
+	background-color: rgba(255,246,30,0.5);
+    border-radius: 20px;
+    margin: 2% 6%;
+    
+
+}
+
+
+.PrHeaderText {
+    
+    text-shadow: -5px -5px 10px green,5px 5px 5px blue;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 750;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.list {
+    	list-style-type: none;
+        background-color:rgba(116,116,116,0.2);
+        border-radius: 15px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+
+}
+
+.templete {
+    display: inline-flex;
+    border: 3px solid rgb(0,255,0);
+    border-radius: 20px;
+    background-color: rgb(245, 255, 245);
+    margin:1%;
+    box-shadow: 10px 10px 5px 5px grey;
+    
+}
+
+
+.d1 {
+/*    max-width: 100%;*/
+    width: 250px;
+    margin: 36px;
+  
+        
+}
+
+
+.Pname {
+    text-transform: capitalize;
+    color: rgb(255,125, 0);
+    font-size: 2.5em;
+    font-weight: 700;
+    
+}
+
+.img {
+    height: 300px;
+    width: 250px;
+    margin: 1px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 30px;
+   
+    margin-bottom: 32px;
+        
+}
+
+
+.PrName {
+    font-style: italic;
+    color: rgb(255,200,0);
+    font-size: 30px;
+    
+}
+
+.PrValue {
+    
+    text-decoration: underline;
+    font-size: 2em;
+    font-weight: 600;
+    
+    
+}
+
+.butn {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width:800px){
+    
+    .img{
+        
+        height: 300px;
+        width: 90%;
+        margin: 1px;
+        border: 1px solid rgb(0,0,0);
+        border-radius: 30px;
+        margin-bottom: 32px;
+    }
+    
+    .d1 {
+        /* max-width: 100%; */
+        width: 250px;
+        margin: 18px;
+    }
+    
+    .PrHeader {
+    background-color: rgba(255,246,30,0.5);
+    border-radius: 20px;
+    margin: 8% 6% 2% 6%;
+}
+    
+    
+}
+
+@media only screen and (max-width:500px){
+    
+    .Pname {
+        text-transform: capitalize;
+        color: rgb(255,125, 0);
+        font-size: 2em;
+        font-weight: 600;
+    }
+    
+    .PrName {
+        font-style: italic;
+        color: rgb(255,200,0);
+        font-size: 25px;
+    }
+
+    .btn{
+        
+        padding: 5px;
+        font-size: 100%;
+    }
+      
+    input[type="submit"] {
+        padding: 5px;
+        font-size: 100%;
+    }
+    
+    input[type="button"] {
+        padding: 5px;
+        font-size: 100%;
+    }
+    
+    .PrValue {
+        text-decoration: underline;
+        font-size: 1em;
+        font-weight: 500;
+    }
+    
+    .img {
+        height: 225px;
+        width: 70%;
+        margin: 1px;
+        border: 1px solid rgb(0,0,0);
+        border-radius: 15px;
+        margin-bottom: 0;
+    }
+    
+    .d1 {
+        /* max-width: 100%; */
+        width: 250px;
+        margin: 8px;
+    }
+    
+    .templete {
+        display: inline-flex;
+        border: 1px solid rgb(0,255,0);
+        border-radius: 15px;
+        background-color: rgb(245, 255, 245);
+        margin: 1%;
+        box-shadow: 5px 5px 3px 1px grey;
+    }
+    
+    .butn {
+        margin-top: 20px;
+    }
+}

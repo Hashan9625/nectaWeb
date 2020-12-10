@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+
+#div {
+	width: 100%;
+	height: 1000px;
+}
+
+.text-color {
+    color: green;
+    font-size: 100%;
+    }
+
+.back-img {
+background-image: url("../images/a.gif");
+  background-position: center;
+  background-repeat: repeat;
+  background-size:contain;
+  position: relative;
+  margin: 0;
+}
+
+.bg-color {
+	
+  background: rgba(225, 225,0,0.30);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-right {
+	position: absolute;
+	top: 16px;
+	right: 32px;
+}
+
+.bL {
+    width: 98%;
+    margin: 0 1%;
+}
+
+.bc {
+    width: 98%;
+    margin: 0 1%;
+}
+
+.headerCus {
+    border-radius: 20px;
+}
+
+
+.nectaLogo {
+     width: 30%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.hComent {
+        text-shadow: 1px 1px 1px black;
+
+}
+
+@media only screen and (max-width: 800px){
+    
+   
+.text-color {
+    color: green;
+    font-size: 75%;
+    } 
+    
+    .btn{
+
+        padding: 5px;
+        font-size: 100%;
+    }
+
+}
+

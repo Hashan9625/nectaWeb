@@ -1,0 +1,208 @@
+	
+.delImg {
+	width: 120px;
+    height: 120px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+.del1{
+/*	width: 500px;*/
+/*    height: 70px;*/
+    text-align: center;
+    background-color: rgba(255,246,30,0.5);
+    margin: 5% 10%;
+    box-shadow: 15px 15px 50px blue;
+    border: 1px solid blue;
+    border-radius: 20px;
+ 
+}
+.delheader{
+	text-shadow: -5px -5px 10px green, 5px 5px 8px blue;
+	margin:10px;
+/*	text-align: center;*/
+	text-transform: uppercase;
+/*	color:#0A5F2C;*/
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  
+}
+.delul{
+	list-style-type: none;
+    background-color: rgba(116,116,116,0.2);
+    border-radius: 20px;
+    margin: 1%;
+    padding: 0;
+}
+
+
+.dellist {
+	display: inline-flex;
+	border: 2px solid rgb(0,255,0);
+	border-radius: 20px;
+    background-color: rgb(245, 255, 245);
+	margin: 10px;
+    padding: 10px;
+	box-shadow: 10px 10px 5px grey;
+/*	width: 800px;*/
+}
+
+.th {
+    text-align: center;
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 20px;
+	color:#064D02;
+}
+.raw{
+	background-color: #BAF7BD;
+}
+
+.dlbody {
+/*	background-color:floralwhite;*/
+}
+
+.delcap {
+	font-size: 30px;
+	text-align: center;
+	color: #040A4B;
+    font-family:allan, Times, "Times New Roman", "serif";
+}
+
+
+
+.deltable {
+	border-bottom-color: #2C4707;
+    width: 800px;
+
+}
+
+.area {
+    text-align: justify;
+}
+
+.delTemplet {
+    width: 800px;
+}
+
+
+@media only screen and (max-width: 900px){
+    
+    
+    .deltable {
+    
+        width: 100%;
+        height: auto;
+    }
+
+    .del1 {
+    
+        margin: 5% 10%;
+        border-radius: 12px;
+        box-shadow: 8px 8px 32px blue;
+    }
+    
+    .delheader {
+        text-shadow: -5px -5px 10px green, 5px 5px 8px blue;
+        font-size: 42px;
+        font-weight: bolder;
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    }
+    
+    .delul {
+    
+        border-radius: 12px;
+    }
+
+    .dellist {
+        border: 1px solid rgb(0,255,0);
+        border-radius: 12px;
+        margin: 1%;
+        padding: 2%;
+        
+    }
+
+    
+}
+
+@media only screen and (max-width: 750px){
+    
+    .delG{
+        display: none;
+    }
+    
+    .delImg {
+        width: 100%;
+        min-width: 50px;
+        height: auto;
+        
+    }
+    .delC {
+        font-size: 72%;
+    }
+    
+        .delH {
+        font-size: 75%;
+    }
+
+    .delheader {
+
+        font-size: 32px;
+
+    }
+    .delCap {
+        font-size: 26px;
+    }    
+}
+
+@media only screen and (max-width: 450px){
+    
+        .del1 {
+        border-radius: 10px;
+        box-shadow: 4px 4px 16px blue;
+    }
+    
+    .delul {
+    
+        border-radius: 10px;
+    }
+    
+    .dellist {
+        border: 1px solid rgb(0,255,0);
+        border-radius: 10px;
+        margin: 1%;
+        padding: 2%;
+        
+    }
+    
+    .delC {
+        font-size: 46%;
+    }
+    
+
+    .delH {
+        font-size: 50%;
+    }
+    
+    .delImg {
+        display: none;
+    }
+    .delImgH{
+        display: none;
+    }
+    
+    .delheader {
+
+        font-size: 20px;
+
+    }
+
+    .delCap {
+        font-size: 18px;
+    }
+}
+
+.delCap {
+/*    font-size: ;*/
+}
+

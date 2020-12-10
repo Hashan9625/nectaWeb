@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lB{
+    
+    background-color: rgba(230,230,230,1.00);
+    border-radius: 64px;
+    margin-bottom: 64px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+/*
+.r1 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    background-color: rgba(204,204,204,0.20);
+    border-radius: 64px;
+}
+*/
+
+.l1 {
+   
+    
+}
+
+.l2 {
+   
+}
+
+.l3 {
+    
+}
+
+/*
+.creB {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 100px;
+}
+*/
+
+.creT {
+    
+}
+
+.hT {
+    margin-left: 15px;   
+    margin-top: 64px;
+}
+
+
+.butB {
+    
+}
+
+.but {
+    width: 190px;
+    height: 80px;
+    font-size: 45px;
+    border: 1px solid blue;
+    border-radius: 18px;
+    color: azure;
+    background-color: rgba(0,102,204,1.00);
+    box-shadow: 12px 10px 5px tan;
+    font-weight: bolder;
+    margin: 40px;
+    text-shadow: 5px 5px 5px gray;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    
+    
+}
+
+.but2 {
+    width: 190px;
+    height: 80px;
+    font-size: 45px;
+    border: 1px solid blue;
+    border-radius: 18px;
+    color: azure;
+    background-color: crimson;
+    box-shadow: 12px 10px 5px tan;
+    font-weight: bolder;
+    margin: 40px;
+    text-shadow: 5px 5px 5px gray;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    
+    
+}
+
+
+.crea {
+    
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 30; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.50); /* Black w/ opacity */
+    padding-top: 60px;   
+}
+
+.creComm {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.creComment {
+    font-size: 32px;
+}
+
+
+@media only screen and (max-width: 800px){
+    
+    .crea {
+
+         padding-top: 1%; 
+    }
+    
+   .creB {
+        border-radius: 18px;
+       padding: 0;
+    }
+    
+    .lB {
+        background-color: rgba(230,230,230,1.00);
+        border-radius: 18px;
+        margin-bottom: 2%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .r1 {
+        padding: 4%;
+        padding-top: 1%;
+        background-color: rgba(204,204,204,0.98);
+        border-radius: 24px;
+    }
+    
+    .hT {
+        margin-left: 5%;
+        margin-top: 8%;
+        margin-bottom: 0;
+        font-size: 114%;
+        color: rgba(0,0,0,1.00);
+    }
+    
+    .bp {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .but{
+        margin: 2%;
+        width: 140px;
+        height: 48px;
+        font-size: 32px;
+        border-radius: 12px;
+    }
+    .but2{
+        margin: 2%;
+        width: 140px;
+        height: 48px;
+        font-size: 32px;
+        border-radius: 12px;
+    }
+    
+    .creComment {
+        display: none;
+    }
+    
+    .comT {
+        font-size: 1em;
+    }
+
+}
+

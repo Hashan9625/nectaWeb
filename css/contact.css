@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Cmap {
+    
+}
+
+.writeMe {
+    height:170px;
+}
+
+    
+        @media only screen and (max-width: 450px){
+            
+            .contacth1 {
+                font-size: 38px;
+                text-shadow: -2px -2px 5px green, 2px 2px 6px blue;
+            }
+            
+            .contactCol1 {
+                background-color: rgba(255,246,30,0.5);
+                border-radius: 10px;
+                margin: 1% 6%;
+            }
+            
+            .contactp {
+                font-size: 16px;
+                font-weight: 500;
+            }
+            
+            .Cmap {
+                padding: 0;
+    
+            }
+            
+            label{
+                font-size: 90%;
+                padding-left: 4%;
+                margin-bottom: 0;
+            }
+            
+            input[type=text], select, textarea {
+                width: 100%;
+                padding: 6px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                margin-top: 0px;
+                margin-bottom: 8px;
+                resize: vertical;
+            }
+            input[type=email], select, textarea {
+                width: 100%;
+                padding: 6px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                margin-top: 0px;
+                margin-bottom: 8px;
+                resize: vertical;
+            }
+            input[type=tel], select, textarea {
+                width: 100%;
+                padding: 6px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                margin-top: 0px;
+                margin-bottom: 8px;
+                resize: vertical;
+            }
+            
+            .writeMe {
+                height: 100px;
+            }
+
+        }
+
+

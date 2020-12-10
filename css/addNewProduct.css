@@ -1,0 +1,116 @@
+
+
+
+.add1 {
+	
+}
+
+.AddHeader {
+    text-align: center;
+	background-color: rgba(255,246,30,0.5);
+    border-radius: 20px;
+    margin: 32px 15%;
+
+    
+}
+
+.AddHeaderText {
+	text-shadow: -5px -5px 10px green,5px 5px 5px blue;
+    font-size: 2.5em;
+    font-weight: 750;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.col {
+	 background-color: burlywood;
+    border: 1px solid blue;
+    border-radius: 15px;
+    margin: 40px 30px 20px 30px;
+    padding: 5px;
+}
+
+
+.addp1 {
+	font-weight: 600;
+	font-size: 20px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	color:#02596B;
+}
+
+.row4 {
+	margin-top: 20px;
+}
+
+.rowtwo {
+	
+}
+
+.addheader {
+	 font-size: 43px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+.coltwo {
+	background-color: lightgray;
+    margin: 1%;
+    padding: 0%;
+    border-radius: 35px;
+
+}
+
+.addcol8 {
+	}
+
+.addp2 {
+	font-weight: 600;
+	font-size: 35px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	color:#02596B;
+}
+
+.addcol8i {
+    background-color: darkgray;
+    margin: 2%;
+    padding: 1% 5%;
+    width: auto;
+	height: 230px;
+	border-radius: 16px;
+
+    
+}
+
+.sCheck {
+    width: 20px;
+    height: 20px;
+   
+}
+
+.pPrice {
+    border-radius: 8px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.prImg {
+/*    margin-right: 10%;*/
+    margin-top: -11px;
+}
+
+.addNewPro {
+    background-image: url("../images/addPro.png");
+  
+}
+
+.addNewProB {
+    background-color: rgba(255,255,255,0.50);
+    padding: 2% 0;
+}
+
+.coList {
+    display: none;
+}
+
+.other {
+    width: 72px;
+}

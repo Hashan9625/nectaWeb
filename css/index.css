@@ -1,0 +1,98 @@
+
+.bo1 {
+    margin: 1%;
+    padding: 2%;
+    border-radius: 18px;
+    background-image: url("../images/homeB.jpeg");
+}
+
+.bo2 {
+    padding: 4%;
+    background-color: rgba(255,255,255,0.50);
+    border-radius: 15px;
+}
+
+.img1 {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black; 
+    
+}
+
+.bi1 {
+    padding: 2%;
+
+}
+
+.bi2 {
+    padding: 2%;
+    background-color: rgba(190,190,190,1.00);
+    border:  1px solid blue;
+    border-radius: 10px;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.bi3B {
+    text-align: center;
+}
+
+.bi3T {
+/*    font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";*/
+    font-size: 400%;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 5px yellow,-2px -2px 5px yellow;
+}
+
+.bi2Alo {
+    font-size: 150%;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.bi2AloH {
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    
+    
+    .img1 {
+        
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid black; 
+    
+    } 
+    
+    .bi3T {
+    /*    font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";*/
+        font-size: 180%;
+        font-weight: bold;
+        color: black;
+        text-shadow: 2px 2px 5px yellow, -2px -2px 5px yellow;
+    }
+    
+    .bi2AloH {
+        font-weight: bold;
+        font-size: 140%;
+    }
+    
+    .bi2Alo {
+        font-size: 120%;
+        font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    }
+    
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lB{
+    
+    background-color: rgba(204,204,204,1.00);
+    border-radius: 64px;
+    margin: 5%;
+    
+}
+
+
+.r1 {
+    padding: 100px;
+    padding-top: 10px;
+    background-color: rgba(204,204,204,0.98);
+    border-radius: 64px;
+}
+
+.l1 {
+   
+    
+}
+
+.l2 {
+   
+}
+
+.l3 {
+    
+}
+
+.creB {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 100px; 
+}
+
+.creT {
+    
+}
+
+.hT {
+    margin-left: 15px;   
+    margin-top: 64px;
+}
+
+.bp {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.butB {
+    
+}
+
+.but {
+    width: 190px;
+    height: 80px;
+    font-size: 45px;
+    border: 1px solid blue;
+    border-radius: 18px;
+    color: azure;
+    background-color: rgba(0,102,204,1.00);
+    box-shadow: 12px 10px 5px tan;
+    font-weight: bolder;
+    margin: 40px;
+    text-shadow: 5px 5px 5px gray;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    
+    
+}
+
+.but2 {
+    width: 190px;
+    height: 80px;
+    font-size: 45px;
+    border: 1px solid blue;
+    border-radius: 18px;
+    color: azure;
+    background-color: crimson;
+    box-shadow: 12px 10px 5px tan;
+    font-weight: bolder;
+    margin: 40px;
+    text-shadow: 5px 5px 5px gray;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    
+    
+}
+
+
+.alt {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 30; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.50); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+.comT {
+    font-size: 38px;
+}
+
+.comB {
+    padding-bottom: 16px;
+}
+
+
+@media only screen and (max-width: 800px){
+    
+    .creT {
+        
+        font-size: 120%;
+    }
+    
+
+    .alt {
+
+         padding-top: 0; 
+    }
+
+
+}
+

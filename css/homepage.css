@@ -1,0 +1,96 @@
+
+.slideSh {
+		background-color:#FCD0B6;
+	
+}
+
+.upD {
+	height: 20px;
+	background-color: none;
+	font-size: 24px;
+	
+}
+
+.upH {
+	font-size: 25px;
+	font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-align: center;
+	font-weight: 800;
+	color:#000000;
+	width:auto;
+	height:30px;
+	
+
+	
+	
+}
+
+.upB1 {
+	background-color:#907366;
+	height: 50px;text-align: center;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color: #190000;
+	font-weight: 600;
+	font-size: 30px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.upB2 {
+	background-color: #907366;
+	height: 50px;text-align: center;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	color: #190000;
+	font-weight: 600;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.upcl {
+	background-color: #DB2155;
+	border-radius: 50%;
+	font-family:Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-weight: 800;
+	color:#300C0D;
+}
+
+.upclH {
+	text-align: center;
+	font-size: 35px;
+	
+}
+
+.upT {
+	background-color: #CF7879;
+	border-radius: 4px;
+	
+}
+
+.upH1 {
+	text-align: center;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	color:#2E0C0D;
+	font-size: 20px;
+}
+
+.upP1 {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	color:#360B0C;
+	
+}
+
+.backI {
+	background-image:url(../image/ap.jpg);
+	width:100%;
+	height: :100%;
+	
+
+	
+}
+
+.backI1 {
+	background-color:rgba(255,255,255,0.50);
+	width:100%;
+	height:100%;
+	padding: 50px 50px 50px 50px;
+	margin: 50px 50px 50px 50px;
+	
+}
